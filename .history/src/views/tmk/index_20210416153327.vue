@@ -138,8 +138,7 @@
       title="确认停用"
       :visible.sync="dialogVisible"
       width="30%"
-      :before-close="handleClose"
-    >
+      :before-close="handleClose">
       <span>停用后将不能在继续使用，确认停用？</span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取消</el-button>

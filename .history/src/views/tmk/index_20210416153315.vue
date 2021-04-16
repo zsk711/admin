@@ -114,6 +114,7 @@
         <el-button type="primary" @click="handleChangAll">重制</el-button>
       </span>
     </el-card>
+
     <div>
       <el-card class="box-card" style="margin-top: 20px" shadow="always">
         <el-table :data="tableData" style="width: 100%" border>

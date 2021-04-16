@@ -114,6 +114,7 @@
         <el-button type="primary" @click="handleChangAll">重制</el-button>
       </span>
     </el-card>
+
     <div>
       <el-card class="box-card" style="margin-top: 20px" shadow="always">
         <el-table :data="tableData" style="width: 100%" border>
@@ -138,8 +139,7 @@
       title="确认停用"
       :visible.sync="dialogVisible"
       width="30%"
-      :before-close="handleClose"
-    >
+      :before-close="handleClose">
       <span>停用后将不能在继续使用，确认停用？</span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取消</el-button>
